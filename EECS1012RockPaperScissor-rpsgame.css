@@ -1,0 +1,235 @@
+*{
+
+    font-family:'Roboto',sans-serif;
+
+}
+
+.parent {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    column-gap:20px;
+
+    align-items: center;
+
+    justify-content: center;
+
+}  
+
+.cardyellow{
+
+    order: 3;
+
+    width: 25%;
+
+    margin-top: 2%;
+
+    height: 500px;
+
+    background-color: rgb(112, 129, 139);
+
+    border-radius: 2%;
+
+    border-style: double;
+
+    border-width: 3px;
+
+    border-color: #FFFFFF;
+
+}
+
+
+
+.visualgreen{
+
+    width: 80%;
+
+    height: 65%;
+
+    margin-left: 10%;
+
+    border-radius: 2%;
+
+    background-color: rgb(33, 33, 46);
+
+    border-style: double;
+
+    border-width: 3px;
+
+    border-color: snow;
+
+}
+
+.visualpink{
+
+    width: 80%;
+
+    height: 65%;
+
+    margin-left: 10%;
+
+    border-radius: 2%;
+
+    background-color: rgb(33, 33, 46);
+
+    border-style: double;
+
+    border-width: 3px;
+
+    bborder-color: snow;
+
+}
+
+.visualtwo{
+
+    border: 5px;
+
+    width: 80%;
+
+    height: 65%;
+
+    margin-left: 10%;
+
+    border-radius: 2%; 
+
+    background-color: rgb(33, 33, 46);
+
+    border-style: double;
+
+    border-width: 3px;
+
+    border-color: snow;
+ }
+
+
+
+ 
+ .buttons-container{
+ 
+    margin-top: 10%;
+ 
+    text-align: center;
+ 
+}
+
+
+
+#buttons{
+
+    border:0.1em solid #FFFFFF;
+
+    border-radius:0.12em;
+
+    box-sizing: border-box;
+
+    font-family:'Roboto',sans-serif;
+
+    color: rgb(33, 33, 46);
+
+    transition: all 0.2s;
+
+    height: 30px;
+
+
+ }
+
+
+
+ 
+ #buttons:hover{
+ 
+    color:#ffffff;
+ 
+    background-color:rgb(33, 33, 46);
+ 
+}
+
+
+
+h3{
+
+    text-align: center;
+
+
+}
+
+
+
+
+h1{
+
+    text-align: center;
+
+}
+
+
+
+header{
+
+    font-family: sans-serif;
+
+    color:snow ;  
+
+}
+
+
+
+body{
+
+    font-family: sans-serif;
+
+    color: snow;
+
+    background-color: rgb(33, 33, 46);
+
+}
+
+.image{
+
+    width: 50%;
+
+    height: 90%;
+
+    object-fit: contain;
+
+}
+
+#RPS{
+
+    margin-top: 25%;
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+    margin-left: 40%;
+
+    object-fit:contain;
+
+}
+
+#RPS1{
+
+    margin-top: 25%;
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+    margin-left: 40%;
+
+    object-fit:contain;
+
+}
+
+
+
+#results{
+
+    margin-top: 10%;
+
+    text-align: center;
+
+}
