@@ -1,4 +1,4 @@
-# EECS1012RockPaperScissor-singleplayer
+# EECS1012RockPaperScissor-singleplayer.css
 
 
 
@@ -74,52 +74,5 @@ background-color:rgb(33, 33, 46);
 
 <css>
 
-<html>
 
-<!doctype html>
-
-<html>
-
-<head>
-
-<title>Rock, Paper, Scissors</title>
-
-<link rel="stylesheet" href="./singleplayer.css">
-
-</head>
-
-<header>
-
-<h1>Welcome to Rock, Paper, Scissors</h1>
-
-</header>
-
-<body>
-
-<div id = "names">
-
-<label for="pname">Enter Your Name:</label>
-
-<br>
-
-<input type="text" id="pname" name="pname"> 
-
-<br>
-
-<br>
-
-<a href="numRounds.html">
-
-<button>Submit</button>
-
-</a>
-        
-
-</div>
-
-</body>
-
-</html>
-
-<html>
 
