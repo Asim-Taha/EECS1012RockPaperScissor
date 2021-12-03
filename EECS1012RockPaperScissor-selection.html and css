@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Rock, Paper, Scissors</title>
+
+<link rel="stylesheet" href="./selection.css">
+
+</head>
+
+<header>
+
+<h1>Welcome to Rock, Paper, Scissors</h1>
+
+</header>
+
+<body>
+
+<div class="parent">
+
+<div id="sel">
+
+<a href="singleplayer.html">
+
+<button id="buttonSel">One Player</button>
+
+</a>
+
+
+
+</div>
+
+
+
+<div id="sel">
+
+<a href="pvp.html">
+
+<button id="buttonSel">Two Player</button>
+
+</a>
+
+
+
+</div>
+
+</div>
+
+</body>
+
+--------------------------------css----------------------------
+
+*{
+
+font-family:'Roboto',sans-serif;
+
+}
+
+header{
+
+color: snow;
+
+text-align: center;
+
+}
+
+body{
+
+background-color: rgb(33, 33, 46);
+
+}
+
+.parent{
+
+display: flex;
+
+flex-wrap: wrap;
+
+column-gap:20px;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+#sel
+
+{
+
+width: 25%;
+
+margin-top: 2%;
+
+height: 500px;
+
+background-color: rgb(112, 129, 139);
+
+border-radius: 2%;
+
+border-style: double;
+
+border-width: 3px;
+
+border-color: #FFFFFF;
+
+}
+
+
+
+#buttonSel{
+
+background-color: rgb(33, 33, 46);
+
+border: 1px;
+
+border-color: #FFFFFF;
+
+border-style: double;
+
+border-radius:2%;
+
+box-sizing: border-box;
+
+font-family:'Roboto',sans-serif;
+
+color: snow;
+
+transition: all 0.2s;
+
+width: 80%;
+
+height: 65%;
+
+margin-left: 10%;
+
+margin-top: 25%;
+
+font-size: larger;
+
+}
+
+
+
+#buttonSel:hover{
+
+color:rgb(33, 33, 46);
+
+background-color:snow;
+
+}
+
+
+
+
+
+
+
