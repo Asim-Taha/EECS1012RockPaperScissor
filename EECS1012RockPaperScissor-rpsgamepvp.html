@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  
+  <title> Rock, Paper, Scissors </title>
+ 
+    <link rel="stylesheet" href="rpsgame.css" />
+  
+    <script src="rockpaperscissorClient.js"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+
+  <header>
+ 
+    <h1>Welcome to Rock, Paper, Scissors</h1>
+
+  </header>
+
+  <body id="bigbody">
+    
+    <div class="parent">
+       
+        <div class="cardyellow">
+ 
+          <h3>Player 1</h3>
+          
+          <div class="visualpink">
+          
+            <div class="image">
+            
+              <img id="RPS" src="pictures/background.png">
+              
+           </div>
+         
+          </div>
+
+          
+          
+          <div class="buttons-container">
+          
+            <button id="buttons" onclick="rockpvp()">rock</button>
+            
+            <button id="buttons" onclick="paperpvp()">paper</button>
+            
+            <button id="buttons" onclick="scissorpvp()">scissors</button>
+            
+          </div>
+
+          
+          
+      </div>
+      
+      <div class="cardyellow">
+      
+        <h3>Player 2</h3>
+        
+        <div class="visualtwo">
+        
+          <div class="image">
+          
+            <img id="RPS1" src="pictures/background.png">
+            
+          </div>
+          
+        </div>
+
+        
+        
+        <div class="buttons-container">
+        
+          <button id="buttons" onclick="rockpvpp2()">rock</button>
+          
+          <button id="buttons" onclick="paperpvpp2()">paper</button>
+          
+          <button id="buttons" onclick="scissorpvpp2()">scissors</button>
+          
+        </div>
+
+        
+        
+      </div>
+      
+      <div class="cardyellow">
+      
+        <h3>Leaderboard</h3>
+        
+        <div class="visualgreen">
+        
+          <p id="results"></p>
+          
+        </div>
+        
+        
+        
+        <div class="buttons-container">
+        
+          <button id="buttons">Instructions</button>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+</body>
+
+</html>
